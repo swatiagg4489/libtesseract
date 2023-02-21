@@ -4,7 +4,7 @@ vars:
   SRC_DIR:
     sh: pwd
   
-  PNG_VERSION: 1.6.37
+  PNG_VERSION: 1.6.39
   PNG_NAME: libpng-{{.PNG_VERSION}}
   PNG_SRC: "{{.SRC_DIR}}/{{.PNG_NAME}}"
   PNG_ARCHIVE: libpng.a
